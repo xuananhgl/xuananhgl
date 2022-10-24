@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../boosttrap/config"
+		},
+		{
+			"path": "../boosttrap/src"
+		},
+		{
+			"path": "../boosttrap/tests"
+		},
+		{
+			"path": "../boosttrap/tmp"
+		},
+		{
+			"path": "../boosttrap/vendor"
+		},
+		{
+			"path": "../boosttrap/webroot"
+		}
+	]
+}
