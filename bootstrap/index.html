@@ -47,6 +47,68 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <?= $this->Html->css('input.css') ?>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+ 
+          colors: {
+            'blue': '#1fb6ff',
+            'purple': '#7e5bef',
+            'pink': '#ff49db',
+            'orange': '#ff7849',
+            'green': '#13ce66',
+            'yellow': '#ffc82c',
+            'gray-dark': '#273444',
+            'gray': '#8492a6',
+            'gray-light': '#d3dce6',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+ <div class="w-screen h-24 md:flex justify-center">
+            <div class="md:flex justify-between items-center w-7/12 ">
+                    <div class="md:w-3/12">
+                        <?= $this->Html->image('logo1.png') ?>
+                    </div>
+                    <div class="columns-1 md:columns-5 pl-8">
+                        <div class="">ENTREPRISES</div>
+                        <div class="">SECTEUR PUBLIC</div>
+                        <div class="">À PROPOS</div>
+                        <div class="">CONTACT</div>
+                        <div class="">BLOG</div>
+                    
+                    </div>
+            </div>
+  </div>
+  <div class="mt-24 grid">
+            <div class="text-7xl antialiased not-italic w-5/12 place-self-center ">Fédérateur. 
+                                                          Personnalisé. 
+                                                          Souple & adapté.</div>
+            <div class="text-xl antialiased not-italic w-5/12 place-self-center ">Avec z0 Gravity, découvrez la simplicité et la performance d’une gestion de projet collaborative.</div>
+            <div class="text-sm antialiased not-italic w-5/12 place-self-center">Découvrez z0 Gravity</div>
+            <div class="text-sm antialiased not-italic w-5/12 place-self-center">Voir la vidéo</div>
+            <div class="place-self-center w-[40rem] h-[18rem] absolute top-[12.5rem] right-[25rem]">
+           
+            </div>
+  </div>
+
+
+
+
+</body>
+</html>
 </body>
 
 </html>
