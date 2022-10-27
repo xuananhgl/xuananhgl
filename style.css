@@ -54,6 +54,7 @@ body{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 2px solid #1C9DF4;
     border-radius: 32px;
+    bottom: 19px;
 }
 .sky{
     color: #049BF7;
@@ -116,7 +117,7 @@ body{
     width: 237px;
     height: 39px;
     border-radius: 22px;
-    line-height: 39px;
+    line-height: 30px;
     
 }
 .descripton_vours{
@@ -193,8 +194,55 @@ body{
     height: 454px;
 }
 .width_article{
-    width: 1034px;
+    max-width: 1034px;
 }
+.image_article1{
+    width: 318px;
+    height: 126px;
+}
+.image_article2{
+    width: 292px;
+    height: 399px;
+}
+.padding-19{
+    padding: 19px;
+}
+.margin_left{
+    margin-left: 12px;
+}
+.button-2{
+    width: 237px;
+    height: 39px;
+    text-align: center;
+    line-height: 3px;
+    border-radius: 22px;
+    border: none;
+}
+.article-2-text{
+    width: 316px;
+    margin-left: 36px;
+}
+.color-1{
+    background-color:#4CC6A026;
+    color: #4CC6A0;
+}
+.color-2{
+    background-color: #FF7D6626;
+    color: #FF7D66;
+}
+.color-3{
+    background-color: #1C9DF426;
+    color: #1C9DF4;
+}
+.color-4{
+    background-color:#FFD05166;
+    color: #EAAB00;
+}
+.margin-top-210{
+    margin-bottom: 210px;
+}   
+
+
 @media (min-width :1024px) {
 #main{
     width: 1024px;
